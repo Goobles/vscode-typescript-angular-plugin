@@ -1,0 +1,68 @@
+{
+    "name": "typescript-angular-plugin",
+    "displayName": "Angular Language Service as a TypeScript plugin",
+    "description": "Launch Angular Language Service as a TypeScript plugin, which is more efficient than the official extension (and also up to date).",
+    "version": "1.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cyrilletuzi/vscode-typescript-angular-plugin"
+    },
+    "keywords": [
+        "angular",
+        "angular language service",
+        "typescript",
+        "multi-root ready"
+    ],
+    "author": {
+        "name": "cyrilletuzi",
+        "url": "https://www.cyrilletuzi.com/en/web/"
+    },
+    "contributors": [
+        {
+            "name": "cyrilletuzi",
+            "url": "https://www.cyrilletuzi.com/en/web/"
+        }
+    ],
+    "bugs": {
+        "url": "https://github.com/cyrilletuzi/vscode-typescript-angular-plugin/issues"
+    },
+    "license": "MIT",
+    "publisher": "cyrilletuzi",
+    "icon": "icon-angular.png",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "qna": false,
+    "main": "./out/extension",
+    "activationEvents": [
+        "workspaceContains:angular.json",
+        "workspaceContains:.angular-cli.json"
+    ],
+    "contributes": {
+        "typescriptServerPlugins": [
+            {
+                "name": "@angular/language-service"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "npm run compile && node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.6.1",
+        "vscode": "^1.1.21",
+        "tslint": "^5.8.0",
+        "@types/node": "^8.10.25",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "@angular/language-service": "^7.0.4"
+    }
+}

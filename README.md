@@ -43,10 +43,13 @@ or just search for **"Angular Language Service as a TypeScript plugin"** by "Cyr
 
 ## Requirements
 
-This extension supports **Angular >= 6**.
+1. This extension supports **Angular >= 6**.
 
-To avoid noise in non-Angular projects, this extension is only enabled inside an Angular CLI project,
+2. To avoid noise in non-Angular projects, this extension is only enabled inside an Angular CLI project,
 ie. **with an `angular.json` file in workspace**.
+
+3. This kind of extensions are designed to work with **the VS Code version of TypeScript**
+(which is the default configuration). It won't work if you use the workspace version of TypeScript.
 
 ## Inline templates
 

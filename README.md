@@ -53,7 +53,7 @@ ie. **with an `angular.json` file in workspace**.
 
 ## Inline templates
 
-For now, **the extension only works with inline templates**. Support for external templates is being investigated.
+For now, **the extension only works with inline templates**. Support for external templates is being investigated (see [#1](https://github.com/cyrilletuzi/vscode-typescript-angular-plugin/issues/1) if you want to help).
 
 It's a good occasion to switch to inline templates. Here are some reasons why:
 

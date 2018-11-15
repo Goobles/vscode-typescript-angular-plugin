@@ -51,6 +51,8 @@ ie. **with an `angular.json` file in workspace**.
 3. This kind of extensions are designed to work with **the VS Code version of TypeScript**
 (which is the default configuration). It won't work if you use the workspace version of TypeScript.
 
+4. If you already have the legacy extension, disable it.
+
 ## Inline templates
 
 For now, **the extension only works with inline templates**. Support for external templates is being investigated (see [#1](https://github.com/cyrilletuzi/vscode-typescript-angular-plugin/issues/1) if you want to help).

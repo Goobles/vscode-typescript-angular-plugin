@@ -84,10 +84,11 @@ especially for new Angular developers.
 Finally, I come to what you're screaming at from the beginning: "HTML templates can be long too,
 so the TypeScript files become a mess with inline templates".
 
-Well, if your templates are long, the mess may be how you program (sorry!), as you don't respect one of the major principle of programming:
+Well, if your templates are long, the mess may be how you program (sorry!), as you don't respect one of the major principles of programming:
 the **single responsibility principle**.
 
-**Inline templates favors to pay attention to that**, while external templates favors huge components, which is *bad*.
+**Inline templates favors to pay attention to keep components small**, which is *good*,
+while external templates favors huge components, which is *bad*.
 
 So yes, **the good practice is inline templates! :)**
 

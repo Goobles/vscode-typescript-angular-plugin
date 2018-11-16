@@ -22,7 +22,7 @@ from Microsoft.
 ### Up to date
 
 As asked and answered in [angular/vscode-ng-language-service#298](https://github.com/angular/vscode-ng-language-service/issues/298),
-the legacy official extension is not really maintened anymore, and so have a lot of issues.
+the legacy official extension is not really maintained anymore, and so have a lot of issues.
 
 This extension is directly using the latest official `@angular/language-service` package,
 so it's **up to date** and it will be updated at each new release of `@angular/language-service` (including patches).

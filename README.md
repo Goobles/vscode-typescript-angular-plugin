@@ -51,16 +51,7 @@ ie. **with an `angular.json` file in workspace**.
 3. If you already have the legacy extension, disable it.
 
 4. This kind of extensions are designed to work with **the VS Code version of TypeScript**
-(which is the default configuration). If you switched to the workspace version of TypeScript,
-you can have the same behavior by adding this to your `tsconfig.json`:
-
-```json
-{
-    "compilerOptions": {
-        "plugins": [{ "name": "@angular/language-service" }]
-    }
-}
-```
+(which is the default configuration). It won't work with a workspace version of TypeScript.
 
 ## Inline templates
 

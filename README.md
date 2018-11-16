@@ -25,7 +25,7 @@ As asked and answered in [angular/vscode-ng-language-service#298](https://github
 the legacy official extension is not really maintened anymore, and so have a lot of issues.
 
 This extension is directly using the latest official `@angular/language-service` package,
-so it's **up to date** and it will be updated at each new release of `@angular/language-service` (even patches).
+so it's **up to date** and it will be updated at each new release of `@angular/language-service` (including patches).
 
 ## By the same author
 
@@ -48,10 +48,19 @@ or just search for **"Angular Language Service as a TypeScript plugin"** by "Cyr
 2. To avoid noise in non-Angular projects, this extension is only enabled inside an Angular CLI project,
 ie. **with an `angular.json` file in workspace**.
 
-3. This kind of extensions are designed to work with **the VS Code version of TypeScript**
-(which is the default configuration). It won't work if you use the workspace version of TypeScript.
+3. If you already have the legacy extension, disable it.
 
-4. If you already have the legacy extension, disable it.
+4. This kind of extensions are designed to work with **the VS Code version of TypeScript**
+(which is the default configuration). If you switched to the workspace version of TypeScript,
+you can have the same behavior by adding this to your `tsconfig.json`:
+
+```json
+{
+    "compilerOptions": {
+        "plugins": [{ "name": "@angular/language-service" }]
+    }
+}
+```
 
 ## Inline templates
 

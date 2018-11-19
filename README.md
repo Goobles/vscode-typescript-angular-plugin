@@ -3,7 +3,7 @@
 [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.typescript-angular-plugin)
 activating the official Angular Language Service as a TypeScript plugin.
 
-As a reminder, the Language Service is an official tool provided by Angular to give you **assistance and error-checking in templates**.
+As a reminder, the Language Service is an official tool provided by Angular to give you **assistance and error-checking in templates** (but it does *not* do highlighting of inline templates, see below).
 
 ## Why?
 
@@ -65,6 +65,11 @@ Despite it's not the default configuration in Angular CLI,
 the official `@angular/language-service` is designed to work with inline templates.
 
 Angular is the only major framework doing external templates. **Vue and React templates are inlined.**
+
+### Syntax highlighting
+
+You can add syntax highlighting for inline templates with
+[angular2-line extension](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline).
 
 ### Separation of concerns
 

@@ -69,7 +69,7 @@ Angular is the only major framework doing external templates. **Vue and React te
 ### Syntax highlighting
 
 You can add syntax highlighting for inline templates with
-[angular2-line extension](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline).
+[angular2-inline extension](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline).
 
 ### Separation of concerns
 

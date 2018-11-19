@@ -4,3 +4,12 @@ If you have autocompletion or error-cheking issues,
 you have to report an issue about the `@angular/language-service` package in the official Angular repo:
 https://github.com/angular/angular/issues
 -->
+
+<!--
+Reminder of the requirements:
+- Angular >= 6
+- VS Code version of TypeScript
+- Legacy extension disabled
+-->
+
+Angular version: 

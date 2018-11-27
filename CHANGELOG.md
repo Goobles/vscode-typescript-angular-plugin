@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.0] - 2018-11-27
+
+### Feature
+
+- `@angular/language-service@7.1.0` (also works for Angular 6 and 7.0 projects)
+
 ## [1.0.0] - 2018-11-15
 
 ### Features

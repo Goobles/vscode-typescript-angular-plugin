@@ -3,7 +3,14 @@
 [Visual Studio Code extension](https://marketplace.visualstudio.com/items?itemName=cyrilletuzi.typescript-angular-plugin)
 activating the official Angular Language Service as a TypeScript plugin.
 
-As a reminder, the Language Service is an official tool provided by Angular to give you **assistance and error-checking in templates** (but it does *not* do highlighting of inline templates, see below).
+## Important
+
+The Language Service is an official tool provided by Angular to give you **assistance and error-checking in templates**. But it does **not** do highlighting of inline templates (see below).
+
+This extension just uses the official `@angular/language-service`,
+but the extension itself is **not official**.
+
+Also, this extension already works quite well, but it's still **experimental**.
 
 ## Why?
 
@@ -22,7 +29,7 @@ from Microsoft.
 ### Up to date
 
 As asked and answered in [angular/vscode-ng-language-service#298](https://github.com/angular/vscode-ng-language-service/issues/298),
-the legacy official extension is not really maintained anymore, and so have a lot of issues.
+the legacy official extension is not well maintained, and so have a lot of issues.
 
 This extension is directly using the latest official `@angular/language-service` package,
 so it's **up to date** and it will be updated at each new release of `@angular/language-service` (including patches).

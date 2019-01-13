@@ -2,7 +2,7 @@
     "name": "typescript-angular-plugin",
     "displayName": "Angular Language Service as a TypeScript plugin",
     "description": "Launch Angular Language Service as a TypeScript plugin, which is more efficient than the official extension (and also up to date).",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "repository": {
         "type": "git",
         "url": "https://github.com/cyrilletuzi/vscode-typescript-angular-plugin"
